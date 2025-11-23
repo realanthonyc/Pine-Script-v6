@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Pinescript v5",
+  "name": "Pinescript v6",
   "type": "dark",
   "colors": {
     "selection.background": "#2962ff52",

@@ -1,14 +1,14 @@
 {
-  "name": "pinescript-v5-vscode",
-  "publisher": "frizLabz",
-  "displayName": "Pine Script v5",
-  "description": "Pine Script Language Server",
-  "repository": { "type": "git", "url": "https://github.com/FFriZ/Pine-Script-v5-VS-Code" },
-  "version": "0.1.8",
+  "name": "pinescript-v6",
+  "publisher": "realanthonyc",
+  "displayName": "Pine Script v6",
+  "description": "Pine Script v6 Language Server",
+  "repository": { "type": "git", "url": "https://github.com/realanthonyc/Pine-Script-v6" },
+  "version": "0.2.0",
   "type": "commonjs",
   "engines": { "vscode": "^1.93.0", "node": ">=16.0.0" },
   "categories": [ "Language Packs", "Programming Languages", "Themes", "Snippets", "Other" ],
-  "keywords": [ "pine", "pinescript", "Pine Script", "Pinescript", "TradingView", "TradingView.com" ],
+  "keywords": [ "pine", "pinescript", "Pine Script", "Pinescript", "Pine Script v6", "v6", "TradingView", "TradingView.com" ],
   "activationEvents": [],
   "icon": "media/PineLogo.png",
   "capabilities": { "untrustedWorkspaces": { "supported": true }, "secrets": true },
@@ -16,12 +16,12 @@
     "webpack"          : "webpack --devtool source-map --mode development"      ,
     "compile"          : "pnpm run webpack"                                     ,
     "start"            : "pnpm run compile && code --extensionDevelopmentPath=.",
-    "build-docs"       : "pnpm run typedoc --name 'Pine Script v5'"             ,
+    "build-docs"       : "pnpm run typedoc --name 'Pine Script v6'"             ,
     "vscode:prepublish": "pnpm run compile"                                     ,
     "compile-tests"    : "pnpm run tsc -p . --outDir out"                       ,
     "watch-tests"      : "pnpm run tsc -p . -w --outDir out"                    ,
     "lint"             : "pnpm run eslint src --ext ts"                         ,
-    "vsce-package"     : "vsce package -o pinescriptv5.vsix"
+    "vsce-package"     : "vsce package -o pinescriptv6.vsix"
   },
   "main": "./dist/extension.js",
   "contributes": {
@@ -38,7 +38,7 @@
       { "label": "Pine-Light #01"    , "id": "Light Theme (#1)"                , "uiTheme": "vs"     , "path": "themes/Pine-Light#01.json"   }, { "label": "Pine-Light #02"    , "id": "Light Theme (#2)"                , "uiTheme": "vs"     , "path": "themes/Pine-Light#02.json"   }
     ],
     "configuration": {},
-    "submenus": [ { "id": "pine.mysubmenuNonPineFile", "label": " Pine Script v5" }, { "id": "pine.mysubmenu2", "label": " Pine Script v5" } ],
+    "submenus": [ { "id": "pine.mysubmenuNonPineFile", "label": " Pine Script v6" }, { "id": "pine.mysubmenu2", "label": " Pine Script v6" } ],
     "commands": [
       { "command": "pine.mysubmenuNonPineFile", "title": "Pine Script Options" , "category": "navigation", "when": "!editorLangId == pine" }, { "command": "pine.mysubmenu2"          , "title": "Pine Script Options" , "category": "navigation", "when": "editorLangId == pine"  },
       { "command": "pine.typify"              , "title": "Typify Variables"    , "category": "navigation"                                  }, { "command": "pine.completionAccepted"  , "title": "Completion Accepted"                                                             },

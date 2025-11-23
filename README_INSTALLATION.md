@@ -1,6 +1,6 @@
 ### **Building from Source**
 
-To build the Pine Script v5 Language Server extension from source, follow these steps:
+To build the Pine Script v6 Language Server extension from source, follow these steps:
 
 #### Prerequisites
 Before you begin, ensure you have the following installed:
@@ -12,8 +12,8 @@ Before you begin, ensure you have the following installed:
 Clone the repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/FFriZ/Pine-Script-v5-VS-Code.git
-cd Pine-Script-v5-VS-Code
+git clone https://github.com/realanthonyc/Pine-Script-v6.git
+cd Pine-Script-v6
 ```
 
 **or:**
@@ -76,4 +76,4 @@ If you want to package the extension into a `.vsix` file:
 - If you encounter any issues during the build process, check the `scripts` section of `package.json` for custom commands used by the project.
 - Refer to the `CONTRIBUTING.md` file in the repository for more detailed instructions on contributing to the project.
 
-By following these instructions, you should be able to successfully build the Pine Script v5 Language Server extension from source.
+By following these instructions, you should be able to successfully build the Pine Script v6 Language Server extension from source.

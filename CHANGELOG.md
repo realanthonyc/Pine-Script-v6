@@ -1,28 +1,28 @@
-<h1 align="center">Pine Script v5 Language Server for VS Code</h1>
+<h1 align="center">Pine Script v6 Language Server for VS Code</h1>
 
 <div style="background-color: #1d1f23; padding: 20px; text-align: center; border: 2px solid #d3d4d5; border-radius: 10px; box-shadow: inset 0px 0px 5px 5px black;">
   <div style="margin-bottom: 15px;">
-      <a><img src="https://img.shields.io/github/package-json/v/FFriZ/Pine-Script-v5-VS-Code?color=dodgerblue&style=flat-round" alt="Version"></a>
-  <a><img src="https://img.shields.io/github/issues/FFriZ/Pine-Script-v5-VS-Code?style=flat-round" alt="Issues"></a>
-  <a><img src="https://img.shields.io/visual-studio-marketplace/i/frizlabz.pinescript-v5-vscode?style=flat-round" alt="Downloads"></a>
-  <a><img src="https://img.shields.io/github/stars/FFriZ/Pine-Script-v5-VS-Code?color=gold&style=flat-round" alt="Stars"></a>
-  <a><img src="https://img.shields.io/github/contributors/FFriZ/Pine-Script-v5-VS-Code?color=purple&style=flat-round" alt="Contributors"></a>
-  <a><img src="https://img.shields.io/github/license/FFriZ/Pine-Script-v5-VS-Code?color=silver&style=flat-round" alt="License"></a>
+      <a><img src="https://img.shields.io/github/package-json/v/realanthonyc/Pine-Script-v6?color=dodgerblue&style=flat-round" alt="Version"></a>
+  <a><img src="https://img.shields.io/github/issues/realanthonyc/Pine-Script-v6?style=flat-round" alt="Issues"></a>
+  <a><img src="https://img.shields.io/visual-studio-marketplace/i/realanthonyc.pinescript-v6?style=flat-round" alt="Downloads"></a>
+  <a><img src="https://img.shields.io/github/stars/realanthonyc/Pine-Script-v6?color=gold&style=flat-round" alt="Stars"></a>
+  <a><img src="https://img.shields.io/github/contributors/realanthonyc/Pine-Script-v6?color=purple&style=flat-round" alt="Contributors"></a>
+  <a><img src="https://img.shields.io/github/license/realanthonyc/Pine-Script-v6?color=silver&style=flat-round" alt="License"></a>
 </p>
   </div>
-  <a href="https://marketplace.visualstudio.com/items?itemName=frizLabz.pinescript-v5-vscode&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/⭐⭐⭐⭐⭐-Leave_a_Rating_or_Review-brightgreen?style=flat-round" alt="Rate or Review"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=realanthonyc.pinescript-v6&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/⭐⭐⭐⭐⭐-Leave_a_Rating_or_Review-brightgreen?style=flat-round" alt="Rate or Review"></a>
   <p><b>Thank You!</p>
   <p style="margin-top: -10px">Make a Suggestion!</b></p>
 <div style="display: flex; justify-content: center; align-items: center; margin-top: -20px">
   <!-- GitHub Rating or Review Badge -->
-  <a href="https://github.com/FFriZ/Pine-Script-v5-VS-Code/issues" target="_blank">
+  <a href="https://github.com/realanthonyc/Pine-Script-v6/issues" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Here-white?style=flat-round" alt="Rate or Review on GitHub">
   </a>
 
   <span style="margin: 0px 5px;"></span>
 
   <!-- TradingView Profile Badge -->
-  <a href="https://www.tradingview.com/u/FFriZz/" target="_blank">
+  <a href="https://www.tradingview.com/u/anthonycxc/" target="_blank">
     <img src="https://img.shields.io/badge/TradingView-Message Me-white?style=flat-round" alt="Message on TradingView">
   </a>
 </div>
@@ -102,4 +102,3 @@ Twitter:  \
 
 Support my work:  \
 [![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/frizlabz)
-

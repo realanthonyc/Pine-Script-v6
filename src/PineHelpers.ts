@@ -347,7 +347,7 @@ export class Helpers {
   }
 
   // Formats the URL
-  static url: string = 'https://www.tradingview.com/pine-script-reference/v5/'
+  static url: string = 'https://www.tradingview.com/pine-script-reference/v6/'
   /**
    * Formats the URL
    * @param input - The input to format

@@ -1,21 +1,21 @@
 
 
-<h1 align="center">Pine Script v5 Language Server for VS Code</h1>
+<h1 align="center">Pine Script v6 Language Server for VS Code</h1>
 
 <p align="center">
-  <a><img src="https://img.shields.io/github/package-json/v/FFriZ/Pine-Script-v5-VS-Code?color=dodgerblue&style=flat-round" alt="Version"></a>
-  <a><img src="https://img.shields.io/github/issues/FFriZ/Pine-Script-v5-VS-Code?style=flat-round" alt="Issues"></a>
-  <a><img src="https://img.shields.io/visual-studio-marketplace/i/frizlabz.pinescript-v5-vscode?style=flat-round" alt="Downloads"></a>
-  <a><img src="https://img.shields.io/github/stars/FFriZ/Pine-Script-v5-VS-Code?color=gold&style=flat-round" alt="Stars"></a>
-  <a><img src="https://img.shields.io/github/contributors/FFriZ/Pine-Script-v5-VS-Code?color=purple&style=flat-round" alt="Contributors"></a>
-  <a><img src="https://img.shields.io/github/license/FFriZ/Pine-Script-v5-VS-Code?color=silver&style=flat-round" alt="License"></a>
+  <a><img src="https://img.shields.io/github/package-json/v/realanthonyc/Pine-Script-v6?color=dodgerblue&style=flat-round" alt="Version"></a>
+  <a><img src="https://img.shields.io/github/issues/realanthonyc/Pine-Script-v6?style=flat-round" alt="Issues"></a>
+  <a><img src="https://img.shields.io/visual-studio-marketplace/i/realanthonyc.pinescript-v6?style=flat-round" alt="Downloads"></a>
+  <a><img src="https://img.shields.io/github/stars/realanthonyc/Pine-Script-v6?color=gold&style=flat-round" alt="Stars"></a>
+  <a><img src="https://img.shields.io/github/contributors/realanthonyc/Pine-Script-v6?color=purple&style=flat-round" alt="Contributors"></a>
+  <a><img src="https://img.shields.io/github/license/realanthonyc/Pine-Script-v6?color=silver&style=flat-round" alt="License"></a>
 </p>
 
 > Disclaimer: Pine Script™ is a trademark of TradingView. This project is not affiliated with, endorsed by, or connected to TradingView.
 
-The Pine Script v5 Language Server Extension is a powerful addition to your VS Code setup, designed specifically to enhance the development experience for Pine Script v5. It brings a suite of advanced features to your fingertips, including robust syntax highlighting and intelligent code completion, which greatly facilitate the coding process. While TradingView offers an excellent domain-specific text editor, it lacks the level of customization that some users may desire. The recent break throughs in AI technology presents an opportunity to harness these tools to accelerate the production speed. This potential was one of my motivations for developing this extension. Furthermore, VS Code is on the cusp of releasing API features that will allow the creation of custom copilot agents, a capability already available in the insiders edition, which could provide additional impetus for using this extension. My aspiration is that the Pine Script community finds great value and utility in this tool, as its development has been a significant endeavor.
+The Pine Script v6 Language Server Extension brings the same toolkit of completions, hover docs, and templates to TradingView’s latest language version. It aims to make VS Code a first-class editor for Pine Script v6 while preserving compatibility with existing workflows and themes.
 
-### **This Repo is now being maintained with the help of [@kaigouthro](https://github.com/kaigouthro) as other responsibilites have left me limited time.**
+**Maintained by:** [realanthonyc](https://github.com/realanthonyc) · [X](https://x.com/anthonycxc)
 
 ***
 
@@ -71,20 +71,23 @@ Automatically generate and insert types for untyped variables in your scripts.
 ### **Installation**
 **Via Visual Studio Code**
 - Open VS Code and navigate to the Extensions view by clicking on the square icon in the sidebar or pressing Ctrl+Shift+X.
-- Search for Pine Script v5 Language Server in the Extensions view search bar.
+- Search for Pine Script v6 Language Server in the Extensions view search bar.
 - Click on the Install button.
 
 **Via Command Line**
 
 You can also install the extension directly from the command line:
 
-    code --install-extension frizLabz.pinescript
+    code --install-extension realanthonyc.pinescript-v6
 
 ### **Contributing**
-See the [CONTRIBUTING.md](https://github.com/frizLabz-FFriZz/Pine-Script-v5-VS-Code/blob/main/CONTRIBUTING.md) for instructions.
+See the [CONTRIBUTING.md](https://github.com/realanthonyc/Pine-Script-v6/blob/main/CONTRIBUTING.md) for instructions.
 
 ### **Reporting Bugs**
 If you encounter any bugs or issues while using this extension, please report them to help improve the tool. You can do so by:
+
+- Opening an issue on [GitHub](https://github.com/realanthonyc/Pine-Script-v6/issues)
+- Reaching out on X: [@anthonycxc](https://x.com/anthonycxc)
 
 
 ***
@@ -101,11 +104,6 @@ FFriZz at frizLabz  \
 Skilled in Full Stack Development and Node.js, and an expert in Pine Script.
 
 For inquires: [frizlabz@gmail.com](mailto:frizlabz@gmail.com)
-
-
-[Buy me a coffee](https://www.buymeacoffee.com/frizLabz) to support my work!
-
-![Buy Me a Coffee](https://lh3.googleusercontent.com/pw/AP1GczN2Ng7YBrIV_bsIMe73XsO-xJ8h8eRjaOy96R0zOrarD07M5mpcemKqp-r7VkhPVI1M3dlLOFUmkGxhEqq0RvzGFBeECCxpKrptq4MNd1jhUedGFGiMEtVDj0jY-gXFFh47W_hf11Zs3OLoMAs2WzCk=w200-h00-s-no-gm?authuser=0)
 
 ***
 
