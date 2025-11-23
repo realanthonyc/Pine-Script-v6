@@ -4,12 +4,14 @@
   "displayName": "Pine Script v6",
   "description": "Pine Script v6 Language Server",
   "repository": { "type": "git", "url": "https://github.com/realanthonyc/Pine-Script-v6" },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "commonjs",
   "engines": { "vscode": "^1.93.0", "node": ">=16.0.0" },
   "categories": [ "Language Packs", "Programming Languages", "Themes", "Snippets", "Other" ],
   "keywords": [ "pine", "pinescript", "Pine Script", "Pinescript", "Pine Script v6", "v6", "TradingView", "TradingView.com" ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:pine"
+  ],
   "icon": "media/PineLogo.png",
   "capabilities": { "untrustedWorkspaces": { "supported": true }, "secrets": true },
   "scripts": {
@@ -80,6 +82,7 @@
     "eslint-plugin-react"             : "^7.35.2",
     "eslint-plugin-react-hooks"       : "^4.6.2" ,
     "nodemon"                         : "^3.1.4" ,
+    "ovsx"                            : "^0.8.4" ,
     "remark-preset-wooorm"            : "^9.0.0" ,
     "source-map-support"              : "^0.5.21",
     "ts-loader"                       : "^9.5.1" ,

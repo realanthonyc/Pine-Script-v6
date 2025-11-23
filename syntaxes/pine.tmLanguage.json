@@ -623,7 +623,7 @@
          "patterns": [
             {
                "comment": "",
-               "match": "\\b(bar_index|last_bar_index|last_bar_time|time|timenow|time_tradingday|time_close|close|high|hl2|hlc3|hlcc4|low|ohlc4|open|volume|abovebar|belowbar)\\b(?=(?![[A-Za-z0-9_]\\(]|[\\-+\/%*:]=))",
+               "match": "\\b(bar_index|last_bar_index|last_bar_time|time|timenow|time_tradingday|time_close|close|high|hl2|hlc3|hlcc4|low|ohlc4|open|volume|abovebar|belowbar|bid|ask)\\b(?=(?![[A-Za-z0-9_]\\(]|[\\-+\/%*:]=))",
                "name": "constant.language"
             },
             {
