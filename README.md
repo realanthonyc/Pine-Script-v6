@@ -13,7 +13,7 @@
 
 > Disclaimer: Pine Script™ is a trademark of TradingView. This project is not affiliated with, endorsed by, or connected to TradingView.
 
-The Pine Script v6 Language Server Extension brings the same toolkit of completions, hover docs, and templates to TradingView’s latest language version. It aims to make VS Code a first-class editor for Pine Script v6 while preserving compatibility with existing workflows and themes.
+The Pine Script v6 Language Server Extension brings completions, hover docs, signature help, templates, and theming to TradingView’s latest language version. It aims to make VS Code / VSCodium a first-class editor for Pine Script v6 while preserving compatibility with existing workflows and themes.
 
 **Maintained by:** [realanthonyc](https://github.com/realanthonyc) · [X](https://x.com/anthonycxc)
 
@@ -69,41 +69,32 @@ Automatically generate and insert types for untyped variables in your scripts.
 ***
 
 ### **Installation**
-**Via Visual Studio Code**
-- Open VS Code and navigate to the Extensions view by clicking on the square icon in the sidebar or pressing Ctrl+Shift+X.
-- Search for Pine Script v6 Language Server in the Extensions view search bar.
-- Click on the Install button.
+**Visual Studio Code (Marketplace)**
+- Extensions view → search for “Pine Script v6 Language Server” (publisher `realanthonyc`), install.
+- Command line: `code --install-extension realanthonyc.pinescript-v6`
 
-**Via Command Line**
+**VSCodium / OpenVSX**
+- Once published to OpenVSX, install with: `codium --install-extension realanthonyc.pinescript-v6`
 
-You can also install the extension directly from the command line:
-
-    code --install-extension realanthonyc.pinescript-v6
+**Manual (.vsix)**
+- Build locally (`npm run compile`) then package with `vsce package` or `ovsx package` and install the generated `.vsix`.
 
 ### **Contributing**
 See the [CONTRIBUTING.md](https://github.com/realanthonyc/Pine-Script-v6/blob/main/CONTRIBUTING.md) for instructions.
 
-### **Reporting Bugs**
-If you encounter any bugs or issues while using this extension, please report them to help improve the tool. You can do so by:
-
-- Opening an issue on [GitHub](https://github.com/realanthonyc/Pine-Script-v6/issues)
-- Reaching out on X: [@anthonycxc](https://x.com/anthonycxc)
-
-
+### **Reporting Bugs / Support**
+- Open an issue on [GitHub](https://github.com/realanthonyc/Pine-Script-v6/issues).
+- Reach out on X: [@anthonycxc](https://x.com/anthonycxc).
 ***
 
-**Repo TeleGram:**
+### **Build / Contribute**
+- Requirements: Node 20+ (or 22), npm, VS Code.
+- Install deps: `npm install`
+- Build: `npm run compile`
+- Package: `vsce package` (Marketplace) or `ovsx package` (OpenVSX)
+- Lint: `npm run lint`
 
-[![Telegram Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/48px-Telegram_2019_Logo.svg.png)](https://t.me/+3HKDCjLZUL81MTQx)
-
-***
-**Started By**:  \
-FFriZz at frizLabz  \
-![TV Account page](https://lh3.googleusercontent.com/pw/AP1GczN5A9BNpeRaiQq4lOXu5LTvu1D2407OATFe0zaDa_pp4yZOrhztshoEFzTq2bH64g_G285jBqEl_x_RLA8gbircXAVm-S_o89AZ8MQ_JSqwQGMUeY-BRmE9eYqHCwC1lerPfHsKaZF_LoRxrkLcFsA4=w20-h12-s-no-gm?authuser=0) - [FFriZz](www.tradingview.com/u/FFriZz/#published-scripts)
-
-Skilled in Full Stack Development and Node.js, and an expert in Pine Script.
-
-For inquires: [frizlabz@gmail.com](mailto:frizlabz@gmail.com)
+See [CONTRIBUTING.md](https://github.com/realanthonyc/Pine-Script-v6/blob/main/CONTRIBUTING.md) for detailed guidelines.
 
 ***
 
@@ -111,7 +102,6 @@ For inquires: [frizlabz@gmail.com](mailto:frizlabz@gmail.com)
 Thank you to everyone who has contributed to this project. Your input and efforts are greatly valued and help drive the success of this extension.
 
 #### Contributors:
-
 
 [<img src="https://github.com/frizLabz-FFriZz.png" width="60px;"/>](https://github.com/frizLabz-FFriZz)
 [<img src="https://github.com/slhsxcmy.png" width="60px;"/>](https://github.com/slhsxcmy)

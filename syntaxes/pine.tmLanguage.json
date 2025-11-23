@@ -303,6 +303,11 @@
       "keywords": {
          "patterns": [
             {
+               "comment": "Core control keywords",
+               "match": "\\b(break|continue|as|import|export|enum|type|method|varip|var|switch|for|while|if|else|in|to|by)\\b",
+               "name": "keyword.control.pine"
+            },
+            {
                "match": "(?<=[A-Za-z0-9_]\\n][ \\t]+)(and|or)\\b(?=[ \\t])|(?<=[A-Za-z0-9_][ \\t]|=|^)\\b(not)\\b(?=[ \\t])",
                "name": "keyword.operator.logical"
             },

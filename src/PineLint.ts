@@ -201,7 +201,7 @@ export class PineLint {
       } else if (match.index) {
         const matchPosition = document?.positionAt(match.index)
         const matchEndPosition = document?.positionAt(match.index + 12)
-        const versionMsg = `Must be v5 or v6 for linting with this extension. Can convert v${match[1]} to v5 with the Pine Script Editor on ![TV](www.tradingview.com/pine)`
+        const versionMsg = `Must be v5 or v6 for linting with this extension. Convert v${match[1]} scripts to v6 using the Pine Script Editor on TradingView.`
 
         if (matchPosition && matchEndPosition) {
           const errorObj = {
